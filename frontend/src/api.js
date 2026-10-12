@@ -1,5 +1,4 @@
-const API_BASE =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:8081/api";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "https://pawhaven-pet-adoption-management-system.onrender.com/api";
 
 export function getToken() {
   return localStorage.getItem("pawhaven_token");
