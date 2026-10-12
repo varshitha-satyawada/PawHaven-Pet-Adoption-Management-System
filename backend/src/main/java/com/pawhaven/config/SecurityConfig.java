@@ -87,6 +87,7 @@ public class SecurityConfig {
             "http://127.0.0.1:5173",
             "http://localhost:5174",
              "http://127.0.0.1:5174"
+             "https://paw-haven-pet-adoption-management-system-a6nl4emzz.vercel.app"
 ));
         // Allowed HTTP methods
         config.setAllowedMethods(List.of(
